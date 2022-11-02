@@ -8,7 +8,7 @@ The purpose of maintaining this project is to share some of my practice in the p
 
 ### Docker
 -------
-Project contains douban_scrapyd douban_db douban_adminer three containers.
+Project contains douban scrapyd douban db douban adminer three containers.
 
 The douban_scrapyd container is based on [python:3.9-slim-buster](https://pythonspeed.com/articles/base-image-python-docker-images/), the default installed Python3 libraries are scrapy scrapyd pymysql pillow arrow, default mapping port 6800:6800 to facilitate user access to scrapyd management interface via host IP:6800, login required parameters, username:scrapyd password:public.
 
