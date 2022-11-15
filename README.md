@@ -26,7 +26,7 @@ The path to the SQL file used by the project is docker/mysql/douban.sql.
 ### Collection Process
 -------
 
-    First collect Subject ID --> then crawl the detail page by Subject ID to collect data --> finally collect comments by Subject ID
+    First collect Subject ID --> then crawl the detail page by subject ID to collect data --> finally collect comments by Subject ID
 
 ### method
 -------
