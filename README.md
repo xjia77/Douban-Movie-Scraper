@@ -49,7 +49,7 @@ The path to the SQL file used by the project is docker/mysql/douban.sql.
     $ scrapy crawl book_comment # collect book comment
 
 If you want to make changes to your code more easily while testing, you can mount your project in the scrapy directory to the douban_scrapyd container.
-If you are used to working with scrapyd, you can deploy your project directly to the douban_scrapyd container via scrapyd-client.
+If you are used to working with scrapyd, you can deploy project directly to the douban_scrapyd container via scrapyd-client.
 
 ### Proxy IP
 --------
